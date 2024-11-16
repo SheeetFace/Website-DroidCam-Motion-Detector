@@ -42,14 +42,14 @@ module.exports = {
       themes: {
         dark: {
           colors: {
-            background: "#1A1A1A",
+            background: "#0c0c0c",
             foreground: "#ECECEC",
           },
         },
         light: {
           colors: {
-            background: "#d7d7d7",
-            foreground: "#1A1A1A",
+            background: "#fff",
+            foreground: "#000000",
           },
         },
       },

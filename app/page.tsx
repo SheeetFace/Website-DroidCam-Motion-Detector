@@ -12,12 +12,12 @@ export default function Home() {
       <div className="inline-block text-center justify-center ">
         <span className={title({ color: "green" })}>DroidCam Motion Detector</span>
         <br />
-        <span className="mt-2 text-lg">
+        <span className="mt-2 text-lg font-extralight dark:font-thin ">
           Transform your phone with the DroidCam app into a motion monitoring system, getting real-time information about any changes in space.
         </span>
         <br />
-        <span className="mt-2 text-base">
-          In addition to all the standard DroidCam features, you can also customize sounds and area selection styles, and integrate the app with <span className="text-indigo-500 text-lg">Discord</span> and <span className="text-cyan-400 text-lg">Telegram</span> for real-time screenshots and notifications.
+        <span className="mt-2 text-base font-extralight dark:font-thin ">
+          In addition to all the standard DroidCam features, you can also customize sounds and area selection styles, and integrate the app with <span className="text-indigo-500 text-lg font-light"> Discord </span>and<span className="text-cyan-400 text-lg font-light"> Telegram </span> for real-time screenshots and notifications.
         </span>
       </div>
     </section>
