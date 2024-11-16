@@ -1,3 +1,6 @@
+import Image from "next/image";
+import NextLink from "next/link";
+
 import {
   Navbar as NextUINavbar,
   NavbarContent,
@@ -12,7 +15,7 @@ import { Kbd } from "@nextui-org/kbd";
 import { Link } from "@nextui-org/link";
 import { Input } from "@nextui-org/input";
 import { link as linkStyles } from "@nextui-org/theme";
-import NextLink from "next/link";
+
 import clsx from "clsx";
 
 import { siteConfig } from "@/config/site";
@@ -21,8 +24,6 @@ import {
   KoFiIcon,
   OpenCollectiveIcon,
   GithubIcon,
-  SearchIcon,
-  Logo,
 } from "@/components/icons";
 
 export const Navbar = () => {
@@ -31,7 +32,7 @@ export const Navbar = () => {
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
-            <Logo />
+            <Image alt="Logo" height={46} src="/logo.ico" width={46} />
             <p className=" text-xs text-green-400">
               DroidCam
               <br />

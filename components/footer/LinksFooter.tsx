@@ -1,14 +1,23 @@
+"use client";
+
 import { button as buttonStyles } from "@nextui-org/theme";
 import { Link } from "@nextui-org/link";
+import { motion } from "framer-motion";
 
 import { KoFiIcon, OpenCollectiveIcon, GithubIcon } from "@/components/icons";
 import { siteConfig } from "@/config/site";
 
 export default function LinksFooter() {
   return (
-    <div className="flex justify-between w-3/4">
+    <motion.div
+      className="flex justify-between w-3/4"
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, ease: "easeOut", delay: 0.3 }}
+    >
       <Link
         isExternal
+        aria-label="Support Project on Ko-Fi (opens in a new tab)"
         className={buttonStyles({
           variant: "flat",
           radius: "full",
@@ -22,6 +31,7 @@ export default function LinksFooter() {
 
       <Link
         isExternal
+        aria-label="Support Project on Open Collective (opens in a new tab)"
         className={buttonStyles({
           variant: "flat",
           radius: "full",
@@ -35,6 +45,7 @@ export default function LinksFooter() {
 
       <Link
         isExternal
+        aria-label="Project on GitHub (opens in a new tab)"
         className={buttonStyles({
           variant: "flat",
           radius: "full",
@@ -45,6 +56,6 @@ export default function LinksFooter() {
         <GithubIcon size={20} />
         Project on GitHub
       </Link>
-    </div>
+    </motion.div>
   );
 }

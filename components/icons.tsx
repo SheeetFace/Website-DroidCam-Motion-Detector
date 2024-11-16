@@ -2,27 +2,25 @@ import * as React from "react";
 
 import { IconSvgProps } from "@/types";
 
-export const Logo: React.FC<IconSvgProps> = ({
-  size = 36,
-  width,
-  height,
-  ...props
-}) => (
-  <svg
-    fill="none"
-    height={size || height}
-    viewBox="0 0 32 32"
-    width={size || width}
-    {...props}
-  >
-    <path
-      clipRule="evenodd"
-      d="M17.6482 10.1305L15.8785 7.02583L7.02979 22.5499H10.5278L17.6482 10.1305ZM19.8798 14.0457L18.11 17.1983L19.394 19.4511H16.8453L15.1056 22.5499H24.7272L19.8798 14.0457Z"
-      fill="currentColor"
-      fillRule="evenodd"
-    />
-  </svg>
-);
+// export const Logo: React.FC<IconSvgProps> = ({
+//   size = 36,
+//   width,
+//   height,
+//   ...props
+// }) => (
+//   <svg
+//     fill="none"
+//     height={size || height}
+//     width={size || width}
+//     viewBox="0 0 16 16"
+//     {...props}
+//   >
+//     <path
+//       d="M0.4 1.3C0.1 2.1 0 5.6 0.2 9.1L0.5 15.5H15.5V0.5L8.2 0.2C2.7 0 0.7 0.3 0.4 1.3ZM11.3 6C12.2 7.1 13 8.6 13 9.4C13 11.3 10.3 13.4 9.6 12.1C9.2 11.6 9.4 10.9 10 10.5C11.6 9.5 9.3 6 7.4 6.7C6.3 7.1 6 8.1 6.4 10.1C6.7 11.7 6.7 13 6.4 13C5.4 13 3 10.2 3 9.1C3 7.4 6.3 4 8 4C8.9 4 10.3 4.9 11.3 6ZM9 9C9 9.5 8.6 10 8 10C7.4 10 7 9.5 7 9C7 8.4 7.4 8 8 8C8.6 8 9 8.4 9 9Z"
+//       fill="currentColor"
+//     />
+//   </svg>
+// );
 
 export const OpenCollectiveIcon: React.FC<IconSvgProps> = ({
   size = 24,
@@ -135,34 +133,6 @@ export const SunFilledIcon = ({
       <path d="M19 12a7 7 0 11-7-7 7 7 0 017 7z" />
       <path d="M12 22.96a.969.969 0 01-1-.96v-.08a1 1 0 012 0 1.038 1.038 0 01-1 1.04zm7.14-2.82a1.024 1.024 0 01-.71-.29l-.13-.13a1 1 0 011.41-1.41l.13.13a1 1 0 010 1.41.984.984 0 01-.7.29zm-14.28 0a1.024 1.024 0 01-.71-.29 1 1 0 010-1.41l.13-.13a1 1 0 011.41 1.41l-.13.13a1 1 0 01-.7.29zM22 13h-.08a1 1 0 010-2 1.038 1.038 0 011.04 1 .969.969 0 01-.96 1zM2.08 13H2a1 1 0 010-2 1.038 1.038 0 011.04 1 .969.969 0 01-.96 1zm16.93-7.01a1.024 1.024 0 01-.71-.29 1 1 0 010-1.41l.13-.13a1 1 0 011.41 1.41l-.13.13a.984.984 0 01-.7.29zm-14.02 0a1.024 1.024 0 01-.71-.29l-.13-.14a1 1 0 011.41-1.41l.13.13a1 1 0 010 1.41.97.97 0 01-.7.3zM12 3.04a.969.969 0 01-1-.96V2a1 1 0 012 0 1.038 1.038 0 01-1 1.04z" />
     </g>
-  </svg>
-);
-
-export const SearchIcon = (props: IconSvgProps) => (
-  <svg
-    aria-hidden="true"
-    fill="none"
-    focusable="false"
-    height="1em"
-    role="presentation"
-    viewBox="0 0 24 24"
-    width="1em"
-    {...props}
-  >
-    <path
-      d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="2"
-    />
-    <path
-      d="M22 22L20 20"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="2"
-    />
   </svg>
 );
 
