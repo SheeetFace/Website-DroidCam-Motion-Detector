@@ -64,4 +64,32 @@ export const siteConfig = {
     koFi: "https://ko-fi.com/sheeetface",
     openCollective: "https://opencollective.com/",
   },
+  downloadVersions: [
+    {
+      title: "DroidCamMotionDetector-Setup.exe",
+      size: "~40MB",
+      type: "Windows installer (Squirrel)",
+      features: [
+        "Standard Windows Installer",
+        "Automatic installation in AppData (Local Disk C)",
+        "Create shortcuts on the desktop",
+        "Display in the list of installed programs",
+        "Can be uninstalled via Control Panel",
+      ],
+      downloadUrl: "/downloads/DroidCamMotionDetector-Setup.zip",
+    },
+    {
+      title: "DroidCamMotionDetector-Portable.zip",
+      size: "~120MB",
+      type: "Portable version (Recommended)",
+      features: [
+        "No installation required",
+        "Can run from any location",
+        "USB drive compatible",
+        "Run via DroidCam Motion Detector.exe",
+        "Remove by deleting folder",
+      ],
+      downloadUrl: "/downloads/DroidCamMotionDetector-Portable.zip",
+    },
+  ],
 };

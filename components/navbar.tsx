@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { Image } from "@nextui-org/image";
 import NextLink from "next/link";
 
 import {
@@ -32,7 +32,13 @@ export const Navbar = () => {
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
-            <Image alt="Logo" height={46} src="/logo.ico" width={46} />
+            <Image
+              alt="Logo"
+              height={46}
+              radius="none"
+              src="/logo.ico"
+              width={46}
+            />
             <p className=" text-xs text-green-400">
               DroidCam
               <br />
