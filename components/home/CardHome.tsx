@@ -24,8 +24,8 @@ const CardHome: FC<CardHomeProps> = ({
         <Image
           alt="DroidCam Motion Detector logo"
           height={34}
-          src="/logo.ico"
           radius="none"
+          src="/logo.ico"
           width={34}
         />
         <div className="flex flex-col">

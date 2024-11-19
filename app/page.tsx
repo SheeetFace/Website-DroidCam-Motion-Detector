@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+
 import HeaderHome from "@/components/home/HeaderHome";
 import CardHome from "@/components/home/CardHome";
 import { siteConfig } from "@/config/site";

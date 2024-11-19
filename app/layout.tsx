@@ -9,6 +9,7 @@ import { fontSans } from "@/config/fonts";
 import { Navbar } from "@/components/navbar";
 import AuthorTagFooter from "@/components/footer/AuthorTagFooter";
 import LinksFooter from "@/components/footer/LinksFooter";
+import AbstractParticles from "@/components/canvas/AbstractParticles";
 
 export const metadata: Metadata = {
   title: {
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   icons: {
-    icon: "/favicon.ico",
+    icon: "/logo.ico",
   },
 };
 
@@ -43,7 +44,8 @@ export default function RootLayout({
         )}
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
-          <div className="relative flex flex-col h-screen ">
+          <div className="relative flex flex-col h-screen">
+            <AbstractParticles />
             <Navbar />
             <main className="container mx-auto max-w-12xl pt-1 px-6 flex-grow">
               {children}
