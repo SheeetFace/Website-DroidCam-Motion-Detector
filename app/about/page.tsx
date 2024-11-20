@@ -2,11 +2,9 @@
 
 import { motion } from "framer-motion";
 import { Divider } from "@nextui-org/divider";
-import { Input } from "@nextui-org/input";
-import { Textarea } from "@nextui-org/input";
-import { Button } from "@nextui-org/button";
 
 import { title } from "@/components/primitives";
+import AboutForm from "@/components/about/AboutForm";
 
 export default function AboutPage() {
   return (
@@ -48,26 +46,7 @@ export default function AboutPage() {
             If you have questions, suggestions, or want to report a problem,
             contact me:
           </span>
-          <form className="flex flex-col gap-3 py-6">
-            <div className="flex flex-col gap-3 md:flex-row">
-              <Input isRequired label="Your Name" size="sm" type="text" />
-              <Input
-                isRequired
-                classNames={{
-                  errorMessage: "font-extralight text-sm",
-                }}
-                label="Your Email"
-                size="sm"
-                type="email"
-                validationBehavior="native"
-              />
-            </div>
-            <Textarea isRequired label="Description" />
-
-            <Button className="mt-5" color="warning" variant="flat">
-              Submit
-            </Button>
-          </form>
+          <AboutForm />
         </div>
       </motion.div>
     </div>
