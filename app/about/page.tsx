@@ -8,7 +8,7 @@ import AboutForm from "@/components/about/AboutForm";
 
 export default function AboutPage() {
   return (
-    <div className=" flex flex-col text-center gap-5">
+    <section className=" flex flex-col text-center gap-5">
       <motion.h1
         animate={{ opacity: 1 }}
         className={title({ color: "green" })}
@@ -49,6 +49,6 @@ export default function AboutPage() {
           <AboutForm />
         </div>
       </motion.div>
-    </div>
+    </section>
   );
 }
