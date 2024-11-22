@@ -17,7 +17,7 @@ export default function FAQPage() {
       </motion.h1>
       <motion.div
         animate={{ opacity: 1 }}
-        className="flex w-3/5 text-start mt-2 text-lg font-extralight dark:font-thin "
+        className="flex w-3/5 text-start mt-2 text-lg font-extralight dark:font-thin z-50"
         initial={{ opacity: 0 }}
         transition={{ duration: 0.5, ease: "easeOut", delay: 0.4 }}
       >

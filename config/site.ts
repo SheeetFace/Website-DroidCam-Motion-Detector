@@ -124,4 +124,67 @@ export const siteConfig = {
       content: "You can use the feedback form on our About page.",
     },
   ],
+  features: [
+    {
+      title: "Movement Monitoring",
+      items: [
+        "Movement Threshold: Defines the minimum movement that will be registered as motion. The smaller the value, the more sensitive the detector will be to the slightest movements. The larger the value, the greater the movement required to register.",
+        "Frame Skip: Sets the number of frames to skip between processing to improve performance.",
+        "Disable Motion Tracking: Allows temporarily disabling the motion tracking feature.",
+      ],
+    },
+    {
+      title: "Image Settings",
+      items: [
+        "Brightness: Adjust the brightness level of the image.",
+        "Contrast: Adjust the contrast level of the image.",
+        "Sharpness: Adjust the sharpness level of the image.",
+      ],
+    },
+    {
+      title: "Notifications",
+      items: [
+        "Alert Interval: Configure the frequency of alerts in seconds.",
+        "Alert Volume: Adjust the volume of alert sounds.",
+        "Notification Interval Settings: Configure the frequency of notifications in Telegram and Discord.",
+      ],
+    },
+    {
+      title: "Styles",
+      items: [
+        "Border Colors: Adjust the border colors for object tracking in the camera.",
+      ],
+    },
+    {
+      title: "Integrations",
+      items: [
+        "Discord Webhook URL: Configure the URL for integration with Discord.",
+        "Telegram Settings: Configure notifications and screenshot features.",
+        "Snapshot: Allows sending screenshots at specific time intervals.",
+      ],
+    },
+    {
+      title: "Full DroidCam Functionality",
+      items: [
+        "Zoom: Ability to zoom in and out.",
+        "Auto Focus: Configure autofocus for optimal image quality.",
+        "Screenshots: Take screenshots at any time (saved on the phone).",
+        "Flashlight: Enable the flashlight to improve lighting.",
+        "Battery: Display the phone's battery level on the screen.",
+      ],
+    },
+    {
+      title: "Additional Features",
+      items: [
+        "Resizable Window: Ability to resize the application window for convenience.",
+        "Always on Top: Keep the application on top of all windows for constant monitoring.",
+      ],
+    },
+    {
+      title: "No Internet Connection Required",
+      items: [
+        "Internet Not Required: (except for integrations with Discord and Telegram), it's enough to be on the same Wi-Fi network.",
+      ],
+    },
+  ],
 };
