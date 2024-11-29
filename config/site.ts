@@ -129,6 +129,7 @@ export const siteConfig = {
       title: "Movement Monitoring",
       items: [
         "Movement Threshold: Defines the minimum movement that will be registered as motion. The smaller the value, the more sensitive the detector will be to the slightest movements. The larger the value, the greater the movement required to register.",
+        "Distance Threshold: This setting specifies the smallest distance between borders at which they should be considered merged into one. The smaller the value, the closer the objects need to be to be regarded as a single unit.",
         "Frame Skip: Sets the number of frames to skip between processing to improve performance.",
         "Disable Motion Tracking: Allows temporarily disabling the motion tracking feature.",
       ],
@@ -153,6 +154,7 @@ export const siteConfig = {
       title: "Styles",
       items: [
         "Border Colors: Adjust the border colors for object tracking in the camera.",
+        "Border Thickness: Adjust the thickness of the border.",
       ],
     },
     {
