@@ -197,4 +197,381 @@ export const siteConfig = {
       ],
     },
   ],
+  integrations: [
+    {
+      id: "TELEGRAM-bot",
+      title: "Telegram Bot Integration",
+      titleColor: "text-cyan-500",
+      description: "How to create and connect Telegram bot to your application",
+      platform: "telegram",
+      difficulty: "easy",
+      timeEstimate: "5 minutes",
+      requirements: ["Telegram account", "Ethernet"],
+      steps: [
+        {
+          id: "step-1",
+          type: "heading",
+          content: "1. Create a New Bot with BotFather",
+        },
+        {
+          id: "step-1-1",
+          type: "textWith",
+          content: "Open Telegram and search @BotFather",
+        },
+        {
+          id: "step-1-1-1",
+          type: "image",
+          content:
+            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1732966726/khpgjzuynuq4wb0e8ufv.webp",
+          additionalInfo: {
+            imageAlt: "BotFather bot search instructions",
+          },
+        },
+        {
+          id: "step-1-1-2",
+          type: "warning",
+          content:
+            "Note that it was an official bot that has a verification badge.",
+          additionalInfo: {
+            colorScheme: "info",
+          },
+        },
+        {
+          id: "step-1-2",
+          type: "text",
+          content: "Open a dialog with the bot.",
+        },
+        {
+          id: "step-1-3",
+          type: "textWith",
+          content:
+            "Click on the Menu button and select /newbot to create a new bot.",
+        },
+        {
+          id: "step-1-3-1",
+          type: "image",
+          content:
+            " https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1732968093/pyf0nfbzj0kxnzczogid.webp",
+          additionalInfo: {
+            imageAlt:
+              "Screenshot of the Telegram interface showing how to click on the Menu button and select the /newbot command to create a new bot.",
+          },
+        },
+        {
+          id: "step-1-4",
+          type: "text",
+          content:
+            "Now we're asked to name our new bot. The hardest part is coming up with a name.",
+        },
+        {
+          id: "step-1-4-1",
+          type: "image",
+          content:
+            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733051175/g8pmibfdegqwqjeu6jwg.webp",
+          additionalInfo: {
+            imageAlt:
+              "Screenshot of the Telegram interface showing where we are asked to come up with a name for our bot.",
+          },
+        },
+        {
+          id: "step-1-5",
+          type: "text",
+          content:
+            "All right, we've come up with a name for our bot. Almost done. 🤗",
+        },
+        {
+          id: "step-1-5-1",
+          type: "image",
+          content:
+            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733052385/vouswleexluy7dim5jng.webp",
+          additionalInfo: {
+            imageAlt:
+              "Screenshot of the Telegram interface showing where we came up with the name of our new bot. ",
+          },
+        },
+        {
+          id: "step-1-6",
+          type: "text",
+          content: "Now we are asked to give our bot a username.",
+        },
+        {
+          id: "step-1-6-1",
+          type: "warningWith",
+          content:
+            "Note that the username of our bot must have the ending <Bot> or <_bot>",
+          additionalInfo: {
+            colorScheme: "warning",
+          },
+        },
+        {
+          id: "step-1-6-2",
+          type: "image",
+          content:
+            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733123876/kceatswe4v97p7bggvld.webp",
+          additionalInfo: {
+            imageAlt:
+              "Screenshot of the Telegram interface showing where we created our bot with the bot's username and his TOKEN.",
+          },
+        },
+        {
+          id: "step-1-7",
+          type: "textWith",
+          content:
+            "Great. Now we have a bot with <TOKEN> and username @AlertsForDCMDBot that will send us screenshots to our group (we'll create it a bit later).",
+        },
+        {
+          id: "step-1-7-1",
+          type: "warningWith",
+          content:
+            "Keep your <TOKEN> secure and store it safely, it can be used by anyone to control your bot.",
+          additionalInfo: {
+            colorScheme: "info",
+          },
+        },
+        {
+          id: "step-2",
+          type: "heading",
+          content: "2. Create a new group.",
+        },
+        {
+          id: "step-2-1",
+          type: "textWith",
+          content:
+            "Create a new group (a group, not a channel). I called it <Group+for+Alerts> . In the window where you will be asked to add contacts, don't add anyone and just click Create.",
+        },
+        {
+          id: "step-2-1-1",
+          type: "image",
+          content:
+            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733127688/tqqkwxufirugi3ztoz17.webp",
+          additionalInfo: {
+            imageAlt:
+              "Screenshot of the Telegram interface showing where we create a new group.",
+          },
+        },
+        {
+          id: "step-2-1-2",
+          type: "image",
+          content:
+            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733127691/rvsbwh77dgi7qdnq9kgl.webp",
+          additionalInfo: {
+            imageAlt:
+              "Screenshot of the Telegram interface showing where we give the name for our new group.",
+          },
+        },
+        {
+          id: "step-2-1-3",
+          type: "text",
+          content: "The group is created, we can move on to the next step.",
+        },
+
+        {
+          id: "step-3",
+          type: "heading",
+          content: "3. Add our bot to the group using username.",
+        },
+        {
+          id: "step-3-1",
+          type: "text",
+          content:
+            "Open a dialog with in our group and click on the area of the name.",
+        },
+        {
+          id: "step-3-1-1",
+          type: "image",
+          content:
+            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733129919/c9kmuwj7fxkvpwxswkkz.webp",
+          additionalInfo: {
+            imageAlt:
+              "Screenshot of the Telegram interface showing where to click to open a window with a list of users.",
+          },
+        },
+        {
+          id: "step-3-2",
+          type: "text",
+          content: "Click on the icon to add a user to the group.",
+        },
+        {
+          id: "step-3-2-1",
+          type: "image",
+          content:
+            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733129922/shp5cqnqh7pstwh2tiiw.webp",
+          additionalInfo: {
+            imageAlt:
+              "Screenshot of the Telegram interface showing where to click to open a window with a list of users.",
+          },
+        },
+        {
+          id: "step-3-3",
+          type: "textWith",
+          content:
+            "In input search for our previously created bot using username in my case its @AlertsForDCMDBot",
+        },
+        {
+          id: "step-3-3-1",
+          type: "image",
+          content:
+            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733129926/asq784vebllegpggmpjk.webp",
+          additionalInfo: {
+            imageAlt:
+              "Screenshot of the Telegram interface showing input where to enter the username of our bot to add it to the group.",
+          },
+        },
+        {
+          id: "step-3-3-2",
+          type: "textWith",
+          content:
+            "Great, we have <TOKEN> and the bot itself added to the group. To get notifications, all that's left is to find out what the <ID> of our group is.",
+        },
+        {
+          id: "step-4",
+          type: "heading",
+          content: "4. Let's find out our group ID.",
+        },
+        {
+          id: "step-4-1",
+          type: "textWith",
+          content:
+            "To find out the <ID> of our group, we will use the third-party bot @GetChatID_IL_BOT , which will give us the <ID>",
+        },
+        {
+          id: "step-4-1-2",
+          type: "textWith",
+          content:
+            "To do this, we repeat the same thing we did when we added our bot @AlertsForDCMDBot to the group, only now we add someone else's bot @GetChatID_IL_BOT .",
+        },
+        {
+          id: "step-4-1-3",
+          type: "image",
+          content:
+            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733131983/dovzdc9u587pb0svxn5y.webp",
+          additionalInfo: {
+            imageAlt:
+              "Screenshot of the Telegram interface showing input where to enter the username of someone else's bot to add it to the group.",
+          },
+        },
+        {
+          id: "step-4-2",
+          type: "textWith",
+          content:
+            "After adding @GetChatID_IL_BOT to our group, click on the button to invoke the command of this bot",
+        },
+        {
+          id: "step-4-2-2",
+          type: "image",
+          content:
+            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733132160/rxl8rb6ka0ehqy6nhw5p.webp",
+          additionalInfo: {
+            imageAlt:
+              "Screenshot of the Telegram interface showing where to click to open commands for the bot.",
+          },
+        },
+        {
+          id: "step-4-3",
+          type: "textWith",
+          content:
+            "After clicking on this button you should be shown the available commands for this bot. We need the /id@GetChatID_IL_BOT command",
+        },
+        {
+          id: "step-4-3-2",
+          type: "warningWith",
+          content:
+            "If after clicking on this button we have no commands available. Then you just need to click on any other chat, group, channel, whatever and then click on this button again. That usually works.",
+          additionalInfo: {
+            colorScheme: "warning",
+          },
+        },
+        {
+          id: "step-4-3-3",
+          type: "image",
+          content:
+            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733132484/zwotdzzx1v4deyxfrv5i.webp",
+          additionalInfo: {
+            imageAlt:
+              "Screenshot of the Telegram interface showing commands for the bot.",
+          },
+        },
+        {
+          id: "step-4-3-4",
+          type: "textWith",
+          content:
+            "After calling the /id@GetChatID_IL_BOT command, we should immediately get a response with <CHAT_ID> , which is what we need to integrate with the application. Just click on these numbers to copy this <CHAT_ID>",
+        },
+        {
+          id: "step-4-3-5",
+          type: "image",
+          content:
+            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733133785/fvzg89s8w83bnyye7dxa.webp",
+          additionalInfo: {
+            imageAlt:
+              "Screenshot of the Telegram interface showing our CHAT_ID.",
+          },
+        },
+        {
+          id: "step-4-3-6",
+          type: "warningWith",
+          content: "Be careful not to copy the first space before <CHAT_ID>",
+          additionalInfo: {
+            colorScheme: "warning",
+          },
+        },
+        {
+          id: "step-4-3-7",
+          type: "textWith",
+          content:
+            "Now we can remove @GetChatID_IL_BOT from our group, we won't need it anymore.",
+        },
+        {
+          id: "step-4-4",
+          type: "textWith",
+          content:
+            "Everything is ready, all that is left is to enter our <TOKEN> and <CHAT_ID> in the app settings. ",
+        },
+        {
+          id: "step-5",
+          type: "heading",
+          content:
+            "5. Enter TOKEN and CHAT_ID in DroidCam Motion Detector settings.",
+        },
+        {
+          id: "step-5-2",
+          type: "textWith",
+          content:
+            "Enter <TOKEN> in the first input, and <CHAT_ID> in the second input in the settings of DriodCam Motion Detector.",
+        },
+        {
+          id: "step-5-2-2",
+          type: "image",
+          content:
+            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733136032/twnguxbcwd3z4whzimxw.webp",
+          additionalInfo: {
+            imageAlt:
+              "Screenshot which shows where to enter TOKEN and CHAT_ID in DroidCam Motion Detector app.",
+          },
+        },
+        {
+          id: "step-5-3",
+          type: "text",
+          content: "🎉 Congratulations, it's all done! 🎉",
+        },
+      ],
+    },
+    {
+      id: "DISCORD-bot",
+      title: "DISCORD Bot Integration",
+      titleColor: "text-indigo-600",
+      description: "How to create and connect Discord bot to your application",
+      platform: "discord",
+      difficulty: "easy",
+      timeEstimate: "4 minutes",
+      requirements: ["Discord account", "Ethernet"],
+      steps: [
+        {
+          id: "step-1",
+          type: "heading",
+          content: "1. Create ",
+        },
+      ],
+    },
+  ],
 };
