@@ -1,6 +1,7 @@
-import { Image } from "@nextui-org/image";
+"use client";
 import NextLink from "next/link";
-
+import { usePathname } from "next/navigation";
+import { Image } from "@nextui-org/image";
 import {
   Navbar as NextUINavbar,
   NavbarContent,
@@ -10,23 +11,16 @@ import {
   NavbarItem,
   NavbarMenuItem,
 } from "@nextui-org/navbar";
-import { Button } from "@nextui-org/button";
-import { Kbd } from "@nextui-org/kbd";
 import { Link } from "@nextui-org/link";
-import { Input } from "@nextui-org/input";
 import { link as linkStyles } from "@nextui-org/theme";
-
 import clsx from "clsx";
 
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
-import {
-  KoFiIcon,
-  OpenCollectiveIcon,
-  GithubIcon,
-} from "@/components/icons";
 
 export const Navbar = () => {
+  const pathname = usePathname();
+
   return (
     <NextUINavbar maxWidth="xl" position="sticky">
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
@@ -84,14 +78,8 @@ export const Navbar = () => {
           {siteConfig.navMenuItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index}`}>
               <Link
-                color={
-                  index === 2
-                    ? "primary"
-                    : index === siteConfig.navMenuItems.length - 1
-                      ? "danger"
-                      : "foreground"
-                }
-                href="#"
+                color={pathname === item.href ? "success" : "foreground"}
+                href={item.href}
                 size="lg"
               >
                 {item.label}
