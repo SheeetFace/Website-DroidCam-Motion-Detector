@@ -13,7 +13,13 @@ export default function IntegrationsPage() {
 
   return (
     <section className="flex flex-col text-center gap-1">
-      <Tabs aria-label="Integration options" color="success">
+      <Tabs
+        aria-label="Integration options"
+        classNames={{
+          tabList: "sm:flex-row flex-col",
+        }}
+        color="success"
+      >
         {integrations.map((integration) => (
           <Tab key={integration.id} title={integration.title}>
             <ScrollShadow
