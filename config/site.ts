@@ -204,7 +204,7 @@ export const siteConfig = {
       titleColor: "text-cyan-500",
       description: "How to create and connect Telegram bot to your application",
       platform: "telegram",
-      difficulty: "easy",
+      difficulty: "medium",
       timeEstimate: "5 minutes",
       requirements: ["Telegram account", "Ethernet"],
       steps: [
@@ -323,7 +323,7 @@ export const siteConfig = {
           id: "step-1-7-1",
           type: "warningWith",
           content:
-            "Keep your <TOKEN> secure and store it safely, it can be used by anyone to control your bot.",
+            "Keep your <TOKEN> secure and store it safely, it can be used by anyone to control your bot. DroidCam Motion Detector stores your data locally on our computer and does not send this data anywhere else.",
           additionalInfo: {
             colorScheme: "info",
           },
@@ -563,13 +563,144 @@ export const siteConfig = {
       description: "How to create and connect Discord bot to your application",
       platform: "discord",
       difficulty: "easy",
-      timeEstimate: "4 minutes",
+      timeEstimate: "2 minutes",
       requirements: ["Discord account", "Ethernet"],
       steps: [
         {
+          id: "step-0",
+          type: "warningWith",
+          content:
+            "I'm using the web version of Discord, if you're using the desktop app, something may be different visually. But the essence doesn't change.",
+          additionalInfo: {
+            colorScheme: "warning",
+          },
+        },
+        {
           id: "step-1",
           type: "heading",
-          content: "1. Create ",
+          content: "1. Add a new server",
+        },
+        {
+          id: "step-1-1",
+          type: "textWith",
+          content:
+            " Click on the icon with PLUS then select <Create+my+Own> --> <For+me+and+my+friends> give names for our server, in my case <Server+For+Alerts>",
+        },
+        {
+          id: "step-1-2",
+          type: "image",
+          content:
+            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733211449/xyw05bjgpl1g6jv3zgf1.webp",
+          additionalInfo: {
+            imageAlt:
+              "Screenshot of the Discord interface where the user clicks on the plus icon, selects 'Create my Own' and 'For me and my friends'   then names as 'Server For Alerts'.",
+          },
+        },
+
+        {
+          id: "step-2",
+          type: "heading",
+          content: "2. Select a channel",
+        },
+        {
+          id: "step-2-1",
+          type: "textWith",
+          content:
+            "The server is ready, now select the channel where notifications will be sent. In my case I choose the already created automatically <general> (but you can create a new one). Click on the <Edit+Channel> button.",
+        },
+        {
+          id: "step-2-2",
+          type: "image",
+          content:
+            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733212676/gkfas1edaqdo1nbfhwea.webp",
+          additionalInfo: {
+            imageAlt:
+              "Screenshot of the Discord interface, where the server is ready. The user selects a channel to send notifications, in this case the automatically created general. Then the user clicks on the Edit Channel button.",
+          },
+        },
+        {
+          id: "step-3",
+          type: "heading",
+          content: "3. Create a New Webhook",
+        },
+        {
+          id: "step-3-1",
+          type: "textWith",
+          content:
+            "In the opened settings, select <+Integrations> and <+Webhooks> .",
+        },
+        {
+          id: "step-3-2",
+          type: "image",
+          content:
+            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733213552/wgsw44ydvtjwvp6x1hil.webp",
+          additionalInfo: {
+            imageAlt:
+              "Screenshot of the Discord interface with open settings where the user selects the Integrations and Webhooks sections.",
+          },
+        },
+        {
+          id: "step-3-3",
+          type: "textWith",
+          content:
+            "Next, create a new <Webhook> by clicking on the <New+Webhook> button. After that a new <Webhook> is created, in my case it has the name <Captain+Hook>",
+        },
+
+        {
+          id: "step-3-4",
+          type: "image",
+          content:
+            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733214214/uzupvecl2zgpmcwfljmj.webp",
+          additionalInfo: {
+            imageAlt:
+              "Screenshot of the Discord interface, where the user creates a new Webhook by clicking on the New Webhook button. Then a new Webhook is created, in this case with the name Captain Hook.",
+          },
+        },
+        {
+          id: "step-3-5",
+          type: "textWith",
+          content:
+            "After clicking on our new <Webhook> called <Captain+Hook> we see the settings. Here you can change its name and picture and channel, I leave everything as it is. Then click on the <Copy+Webhook+URL> button.",
+        },
+        {
+          id: "step-3-6",
+          type: "image",
+          content:
+            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733215212/yk5zaahylr4r4wzrmtff.webp",
+          additionalInfo: {
+            imageAlt:
+              "Screenshot of the Discord settings of a new Webhook called Captain Hook where you can change its name, image and channel. The user leaves the settings unchanged and clicks on the Copy Webhook URL button.",
+          },
+        },
+        {
+          id: "step-3-7",
+          type: "warningWith",
+          content:
+            "Keep your <Webhook> secure and store it safely, it can be used by anyone to control your bot. DroidCam Motion Detector stores your data locally on our computer and does not send this data anywhere else.   ",
+          additionalInfo: {
+            colorScheme: "info",
+          },
+        },
+        {
+          id: "step-4",
+          type: "heading",
+          content: "4. Enter Webhook in DroidCam Motion Detector settings.",
+        },
+        {
+          id: "step-4-1",
+          type: "textWith",
+          content:
+            "After copying <Webhook> go to the application settings and paste <Webhook> into the input and press <Apply> and you're done! 🎉",
+        },
+        {
+          id: "step-4-2",
+          type: "image",
+          content:
+            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733215602/ryn9de2johzczastq5fo.webp",
+          additionalInfo: {
+            imageAlt:
+              "Screenshot of the Discord interface where the user pastes the copied Webhook into the appropriate settings field and clicks Apply, completing the customization process.",
+          },
         },
       ],
     },
