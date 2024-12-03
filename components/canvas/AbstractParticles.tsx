@@ -30,7 +30,7 @@ const CanvasAnimation: React.FC = () => {
       life: number;
       maxLife: number;
     }[] = [];
-    const numParticles = 400;
+    const numParticles = window.innerWidth > 500 ? 400 : 150;
     const maxSpeed = 0.5;
     const colorGradient = ["#003300", "#006600", "#00cc00", "#66ff66"];
     const particleSize = 6;
