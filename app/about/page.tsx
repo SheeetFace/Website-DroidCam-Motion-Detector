@@ -8,7 +8,7 @@ import Title from "@/components/title";
 
 export default function AboutPage() {
   return (
-    <section className=" flex flex-col text-center gap-5">
+    <section className="max-h-[55vh] flex flex-col text-center gap-5">
       <Title pageTitle="About" />
       <motion.div
         animate={{ opacity: 1 }}
