@@ -3,7 +3,7 @@ export default function VideoExample() {
     <section
       aria-label="This video showcases how the DroidCam motion detection system operates in real-world scenarios."
       aria-labelledby="video-title"
-      className="w-[376px]"
+      className="w-[376px] max-sm:w-80"
     >
       <div className="relative w-full h-[280px] overflow-hidden rounded-t-xl">
         <iframe

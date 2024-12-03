@@ -23,20 +23,22 @@ export default function Home() {
   };
 
   return (
-    <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
+    <section className="flex flex-col justify-center gap-4 py-8 md:py-10">
       <div className="inline-block text-center justify-center">
         <HeaderHome />
         <motion.section
           animate={{ opacity: 1, y: 0 }}
-          className="mt-8"
+          className="mt-8 flex items-center"
           initial={{ opacity: 0, y: -30 }}
           transition={{ duration: 0.5, ease: "easeOut", delay: 0.8 }}
         >
-          <div className="flex flex-col md:flex-row justify-between w-full">
-            <div className="flex flex-col gap-5 md:flex-row">
+          <div className="flex flex-row max-xl:flex-col max-xl:items-center justify-between w-full max-sm:items-center sm:w-full gap-5">
+            <div className="flex flex-col gap-5 md:flex-row max-sm:items-center order-1 max-md:order-2">
               {renderCards()}
             </div>
-            <VideoExample />
+            <div className="order-2 max-md:order-1">
+              <VideoExample />
+            </div>
           </div>
         </motion.section>
       </div>
