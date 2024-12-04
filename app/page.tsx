@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import HeaderHome from "@/components/home/HeaderHome";
 import CardHome from "@/components/home/CardHome";
 import VideoExampleHome from "@/components/home/VideoExampleHome";
+import StoresHome from "@/components/home/StoresHome";
 import { siteConfig } from "@/config/site";
 
 export default function Home() {
@@ -23,7 +24,7 @@ export default function Home() {
   };
 
   return (
-    <section className="flex flex-col justify-center gap-4 py-8 md:py-10">
+    <section className="flex flex-col gap-6 py-8 md:py-10">
       <div className="inline-block text-center justify-center">
         <HeaderHome />
         <motion.section
@@ -42,6 +43,7 @@ export default function Home() {
           </div>
         </motion.section>
       </div>
+      <StoresHome />
     </section>
   );
 }
