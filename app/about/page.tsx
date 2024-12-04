@@ -8,7 +8,7 @@ import Title from "@/components/title";
 
 export default function AboutPage() {
   return (
-    <section className="min-h-[55vh] flex flex-col text-center gap-5">
+    <section className="flex flex-col text-center">
       <Title pageTitle="About" />
       <motion.div
         animate={{ opacity: 1 }}
@@ -16,7 +16,7 @@ export default function AboutPage() {
         initial={{ opacity: 0 }}
         transition={{ duration: 0.6, ease: "easeOut", delay: 0.4 }}
       >
-        <div className="flex relative z-10 flex-col gap-4 max-xl:text-sm max-sm:h-[150px] max-sm:overflow-y-auto">
+        <div className="flex relative z-10 flex-col gap-2 max-xl:text-sm max-sm:h-[150px] max-sm:overflow-y-auto">
           <span>
             The idea for the app came about when I was approached by a person
             asking for a simple motion alert solution that didn&apos;t require a
