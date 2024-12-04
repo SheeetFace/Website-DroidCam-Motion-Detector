@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 import HeaderHome from "@/components/home/HeaderHome";
 import CardHome from "@/components/home/CardHome";
-import VideoExample from "@/components/home/VideoExample";
+import VideoExampleHome from "@/components/home/VideoExampleHome";
 import { siteConfig } from "@/config/site";
 
 export default function Home() {
@@ -37,7 +37,7 @@ export default function Home() {
               {renderCards()}
             </div>
             <div className="order-2 max-md:order-1">
-              <VideoExample />
+              <VideoExampleHome />
             </div>
           </div>
         </motion.section>

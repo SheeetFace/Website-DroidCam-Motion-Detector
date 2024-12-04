@@ -2,7 +2,7 @@
 import { ScrollShadow } from "@nextui-org/scroll-shadow";
 import { motion } from "framer-motion";
 
-import ListFeatures from "@/components/features/Listfeatures";
+import ListFeatures from "@/components/features/ListFeatures";
 import Title from "@/components/title";
 
 export default function FeaturesPage() {

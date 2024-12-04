@@ -8,7 +8,7 @@ import { Button } from "@nextui-org/button";
 
 import { sendTelegramMessage } from "@/services/telegramService";
 
-const AboutForm = () => {
+const FormAbout = () => {
   const [formStatus, setFormStatus] = useState<FormStatus>("idle");
 
   const nameRef = useRef<HTMLInputElement>(null);
@@ -114,4 +114,4 @@ const AboutForm = () => {
   );
 };
 
-export default AboutForm;
+export default FormAbout;

@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { Divider } from "@nextui-org/divider";
 
-import AboutForm from "@/components/about/AboutForm";
+import FormAbout from "@/components/about/FormAbout";
 import Title from "@/components/title";
 
 export default function AboutPage() {
@@ -38,7 +38,7 @@ export default function AboutPage() {
             If you have questions, suggestions, or want to report a problem,
             contact me:
           </span>
-          <AboutForm />
+          <FormAbout />
         </div>
       </motion.div>
     </section>

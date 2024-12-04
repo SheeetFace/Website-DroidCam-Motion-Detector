@@ -9,7 +9,7 @@ import { Code } from "@nextui-org/code";
 type IntegrationsProps = { integration: Integration };
 type ColorCodeType = "success" | "secondary";
 
-const IntegrationGuide: FC<IntegrationsProps> = ({ integration }) => {
+const GuideIntegration: FC<IntegrationsProps> = ({ integration }) => {
   const formatContent = (step: IntegrationStep) => {
     const split = step.content.split(" ");
 
@@ -133,4 +133,4 @@ const IntegrationGuide: FC<IntegrationsProps> = ({ integration }) => {
   );
 };
 
-export default IntegrationGuide;
+export default GuideIntegration;

@@ -5,7 +5,7 @@ import { Tabs, Tab } from "@nextui-org/tabs";
 import { Card, CardBody } from "@nextui-org/card";
 import { ScrollShadow } from "@nextui-org/scroll-shadow";
 
-import IntegrationGuide from "@/components/integrations/IntegrationGuide";
+import GuideIntegration from "@/components/integrations/GuideIntegration";
 import { siteConfig } from "@/config/site";
 
 export default function IntegrationsPage() {
@@ -28,7 +28,7 @@ export default function IntegrationsPage() {
             >
               <Card className="bg-zinc-800/20 rounded-l-large rounded-r-none">
                 <CardBody>
-                  <IntegrationGuide integration={integration} />
+                  <GuideIntegration integration={integration} />
                 </CardBody>
               </Card>
             </ScrollShadow>

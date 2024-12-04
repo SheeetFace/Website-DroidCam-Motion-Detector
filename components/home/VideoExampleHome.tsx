@@ -1,4 +1,4 @@
-export default function VideoExample() {
+export default function VideoExampleHome() {
   return (
     <section
       aria-label="This video showcases how the DroidCam motion detection system operates in real-world scenarios."
