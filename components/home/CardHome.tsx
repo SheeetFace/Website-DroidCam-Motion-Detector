@@ -31,13 +31,13 @@ const CardHome: FC<CardHomeProps> = ({
           width={34}
         />
         <div className="flex flex-col">
-          <p className="text-md">{title}</p>
+          <p className="text-md max-sm:text-sm">{title}</p>
           <p className="text-small text-default-500">{type}</p>
         </div>
       </CardHeader>
       <Divider />
       <CardBody>
-        <ul className="list-disc pl-5 font-extralight font-light">
+        <ul className="list-disc pl-5 font-extralight font-light max-sm:text-xs">
           {features.map((feature, i) => {
             return <li key={i}> {feature}</li>;
           })}
