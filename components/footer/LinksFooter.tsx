@@ -10,9 +10,9 @@ import { siteConfig } from "@/config/site";
 export default function LinksFooter() {
   return (
     <motion.div
-      className="flex flex-col justify-between w-3/4 lg:flex-row gap-1"
-      initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
+      className="flex flex-col justify-between w-full lg:flex-row gap-1 px-6"
+      initial={{ opacity: 0, y: 20 }}
       transition={{ duration: 0.5, ease: "easeOut", delay: 0.3 }}
     >
       <Link

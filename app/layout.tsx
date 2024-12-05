@@ -47,12 +47,14 @@ export default function RootLayout({
           <div className="relative flex flex-col h-screen">
             <AbstractParticles />
             <Navbar />
-            <main className="container mx-auto max-w-12xl pt-1 px-6 flex-grow">
+            <main className="container mx-auto max-w-12xl  px-6 flex-grow">
               {children}
             </main>
             <footer className="w-full h-48 flex flex-col justify-between">
               <div className="flex justify-center">
-                <LinksFooter />
+                <div className="flex container">
+                  <LinksFooter />
+                </div>
               </div>
               <AuthorTagFooter />
             </footer>
