@@ -222,7 +222,7 @@ export const siteConfig = {
           id: "step-1-1-1",
           type: "image",
           content:
-            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1732966726/khpgjzuynuq4wb0e8ufv.webp",
+            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733392542/g0jdwwgvo1g14y7p6wqx.webp",
           additionalInfo: {
             imageAlt: "BotFather bot search instructions",
           },

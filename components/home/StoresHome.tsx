@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from "@nextui-org/link";
 import { Image } from "@nextui-org/image";
+import NextImage from "next/image";
 
 export default function StoresHome() {
   return (
@@ -21,6 +22,7 @@ export default function StoresHome() {
         >
           <Image
             alt="Google Play Store"
+            as={NextImage}
             height={40}
             radius="none"
             src="/store-icons/googlePlay.webp"
@@ -35,6 +37,7 @@ export default function StoresHome() {
         >
           <Image
             alt="Apple Store"
+            as={NextImage}
             height={41}
             radius="none"
             src="/store-icons/appleStore.webp"

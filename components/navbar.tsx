@@ -2,6 +2,7 @@
 import NextLink from "next/link";
 import { usePathname } from "next/navigation";
 import { Image } from "@nextui-org/image";
+import NextImage from "next/image";
 import {
   Navbar as NextUINavbar,
   NavbarContent,
@@ -28,6 +29,7 @@ export const Navbar = () => {
           <NextLink className="flex justify-start items-center gap-1" href="/">
             <Image
               alt="Logo"
+              as={NextImage}
               className="min-w-[46px] min-h-[46px]"
               height={46}
               radius="none"

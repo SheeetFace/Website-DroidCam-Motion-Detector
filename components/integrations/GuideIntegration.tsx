@@ -2,7 +2,7 @@ import type { Integration, IntegrationStep } from "@/types";
 
 import { FC } from "react";
 import clsx from "clsx";
-import { Image } from "@nextui-org/image";
+import Image from "next/image";
 import { Chip } from "@nextui-org/chip";
 import { Code } from "@nextui-org/code";
 
@@ -81,9 +81,12 @@ const GuideIntegration: FC<IntegrationsProps> = ({ integration }) => {
           <div className="my-4">
             <Image
               alt={step.additionalInfo?.imageAlt || ""}
-              className="max-w-full rounded-lg"
+              className="rounded-lg w-auto h-auto"
+              height={200}
               loading="lazy"
-              src={step.content}
+              quality={75}
+              src={step?.content || ""}
+              width={400}
             />
           </div>
         );

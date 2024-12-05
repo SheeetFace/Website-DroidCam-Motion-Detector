@@ -1,4 +1,5 @@
 import { FC } from "react";
+import NextImage from "next/image";
 import { Divider } from "@nextui-org/divider";
 import { Link } from "@nextui-org/link";
 import { Image } from "@nextui-org/image";
@@ -23,6 +24,7 @@ const CardHome: FC<CardHomeProps> = ({
       <CardHeader className="flex gap-2">
         <Image
           alt="DroidCam Motion Detector logo"
+          as={NextImage}
           height={34}
           radius="none"
           src="/logo.ico"
