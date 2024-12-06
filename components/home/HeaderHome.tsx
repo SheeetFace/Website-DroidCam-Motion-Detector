@@ -22,8 +22,9 @@ export default function HeaderHome() {
         initial={{ opacity: 0 }}
         transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
       >
-        Transform your phone with the DroidCam app into a motion monitoring
-        system, getting real-time information about any changes in space.
+        Transform your phone with the mobile DroidCam app into a motion
+        detection and monitoring system, receiving real-time alerts about any
+        movement or activity in the monitored area.
       </motion.span>
       <br />
       <motion.span

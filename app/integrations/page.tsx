@@ -5,8 +5,8 @@ import { Tabs, Tab } from "@nextui-org/tabs";
 import { Card, CardBody } from "@nextui-org/card";
 import { ScrollShadow } from "@nextui-org/scroll-shadow";
 
-import GuideIntegration from "@/components/integrations/GuideIntegration";
 import { siteConfig } from "@/config/site";
+import GuideIntegration from "@/components/integrations/GuideIntegration";
 
 export default function IntegrationsPage() {
   const integrations: Integration[] = siteConfig.integrations as Integration[];

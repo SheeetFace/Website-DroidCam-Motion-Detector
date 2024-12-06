@@ -16,11 +16,41 @@ export const metadata: Metadata = {
     default: siteConfig.name,
     template: `%s - ${siteConfig.name}`,
   },
-  description: siteConfig.description,
+  description: siteConfig.defaultDescription,
   icons: {
     icon: "/logo.ico",
+    apple: "/logo.png",
   },
+  openGraph: {
+    title: siteConfig.name,
+    description: siteConfig.defaultDescription,
+    url: "http://localhost:3000", //!
+    siteName: siteConfig.name,
+    images: [
+      {
+        url: "/logo.ico",
+        width: 46,
+        height: 46,
+        alt: "DroidCam Motion Detector Logo",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteConfig.name,
+    description: siteConfig.defaultDescription,
+    images: ["/logo.ico"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  keywords: siteConfig.defaultKeywords,
 };
+
+
 
 export const viewport: Viewport = {
   themeColor: [

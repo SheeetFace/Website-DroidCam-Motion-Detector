@@ -1,5 +1,4 @@
 "use client";
-
 import { motion } from "framer-motion";
 import { Divider } from "@nextui-org/divider";
 

@@ -1,8 +1,48 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Next.js + NextUI",
-  description: "Make beautiful websites regardless of your design experience.",
+  name: "DroidCam Motion Detector",
+  defaultDescription:
+    "Turn your smartphone into a reliable security camera with motion detection, customizable alerts, and integrations with Telegram and Discord for real-time monitoring.",
+  defaultKeywords:
+    "motion detection, security app, smartphone surveillance, home monitoring system, real-time alerts, motion tracking, phone security camera, DroidCam monitoring, smart home security, app for surveillance",
+  pages: {
+    home: {
+      title: "DroidCam Motion Detector - Smart Security for Your Phone",
+      description:
+        "Turn your smartphone into a reliable motion detection system with instant alerts, advanced monitoring features, and integrations with Telegram and Discord for enhanced security.",
+      keywords:
+        "smartphone security camera, motion detection app, home monitoring, real-time alerts, DroidCam motion detector, motion tracking system",
+    },
+    features: {
+      title: "Features - DroidCam Motion Detector",
+      description:
+        "Explore advanced features of DroidCam Motion Detector, including motion tracking, customizable notification sounds, area selection tools, and seamless platform integrations.",
+      keywords:
+        "motion tracking, security notifications, customizable alerts, DroidCam features, advanced monitoring tools, app integrations",
+    },
+    faq: {
+      title: "FAQ - DroidCam Motion Detector",
+      description:
+        "Find answers to common questions about installing, setting up, and using DroidCam Motion Detector for effective home monitoring and security.",
+      keywords:
+        "DroidCam FAQ, motion detection guide, security app setup, troubleshooting DroidCam, home surveillance questions",
+    },
+    about: {
+      title: "About - DroidCam Motion Detector",
+      description:
+        "Discover DroidCam Motion Detector, a cutting-edge app designed to transform your phone into a powerful motion detection system for enhanced home security.",
+      keywords:
+        "about DroidCam, motion detection technology, phone surveillance app, smart security app, home monitoring solution",
+    },
+    integrations: {
+      title: "Integrations - DroidCam Motion Detector",
+      description:
+        "Seamlessly connect DroidCam Motion Detector with platforms like Telegram and Discord to receive real-time alerts, screenshots, and advanced notifications.",
+      keywords:
+        "DroidCam integrations, Telegram security alerts, Discord notifications, motion alert systems, platform connectivity for monitoring",
+    },
+  },
   navItems: [
     {
       label: "Home",
