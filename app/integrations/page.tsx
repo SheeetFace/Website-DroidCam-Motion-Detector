@@ -23,7 +23,7 @@ export default function IntegrationsPage() {
         {integrations.map((integration) => (
           <Tab key={integration.id} title={integration.title}>
             <ScrollShadow
-              className="max-h-[55vh] overflow-auto z-50 rounded-r-large rounded-l-none"
+              className="max-h-[70vh] overflow-auto z-50 rounded-r-large rounded-l-none"
               size={55}
             >
               <Card className="bg-zinc-800/20 rounded-l-large rounded-r-none">

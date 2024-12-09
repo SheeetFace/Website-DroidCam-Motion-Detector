@@ -56,9 +56,6 @@ export const viewport: Viewport = {
     { media: "(prefers-color-scheme: dark)", color: "black" },
   ],
 };
-const HtmlComment = ({ text }: { text: string }) => (
-  <span dangerouslySetInnerHTML={{ __html: `<!-- ${text} -->` }} />
-);
 
 export default function RootLayout({
   children,
@@ -68,7 +65,6 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning lang="en">
       <head />
-      <HtmlComment text="Bidvertiser2096959" />
       <body
         className={clsx(
           "min-h-screen bg-background font-sans antialiased",
@@ -82,7 +78,7 @@ export default function RootLayout({
             <main className="container mx-auto max-w-12xl  px-6 flex-grow">
               {children}
             </main>
-            <footer className="w-full h-48 flex flex-col justify-between">
+            <footer className="w-full h-16 flex flex-col justify-between">
               <div className="flex justify-center">
                 <div className="flex container">
                   <LinksFooter />

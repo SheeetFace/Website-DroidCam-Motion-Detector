@@ -14,7 +14,7 @@ export default function FeaturesPage() {
         initial={{ opacity: 0 }}
         transition={{ duration: 0.5, ease: "easeOut", delay: 0.4 }}
       >
-        <ScrollShadow className="max-h-[50vh] overflow-auto z-50" size={55}>
+        <ScrollShadow className="max-h-[64vh] overflow-auto z-50" size={55}>
           <ListFeatures />
         </ScrollShadow>
       </motion.div>
