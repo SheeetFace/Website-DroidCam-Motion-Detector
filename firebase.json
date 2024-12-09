@@ -8,9 +8,26 @@
     ],
     "rewrites": [
       {
+        "source": "/features",
+        "destination": "/features.html"
+      },
+      {
+        "source": "/faq",
+        "destination": "/faq.html"
+      },
+      {
+        "source": "/about",
+        "destination": "/about.html"
+      },
+      {
+        "source": "/integrations",
+        "destination": "/integrations.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
     ]
   }
 }
+
