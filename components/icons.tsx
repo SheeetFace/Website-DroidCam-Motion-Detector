@@ -2,26 +2,6 @@ import * as React from "react";
 
 import { IconSvgProps } from "@/types";
 
-// export const Logo: React.FC<IconSvgProps> = ({
-//   size = 36,
-//   width,
-//   height,
-//   ...props
-// }) => (
-//   <svg
-//     fill="none"
-//     height={size || height}
-//     width={size || width}
-//     viewBox="0 0 16 16"
-//     {...props}
-//   >
-//     <path
-//       d="M0.4 1.3C0.1 2.1 0 5.6 0.2 9.1L0.5 15.5H15.5V0.5L8.2 0.2C2.7 0 0.7 0.3 0.4 1.3ZM11.3 6C12.2 7.1 13 8.6 13 9.4C13 11.3 10.3 13.4 9.6 12.1C9.2 11.6 9.4 10.9 10 10.5C11.6 9.5 9.3 6 7.4 6.7C6.3 7.1 6 8.1 6.4 10.1C6.7 11.7 6.7 13 6.4 13C5.4 13 3 10.2 3 9.1C3 7.4 6.3 4 8 4C8.9 4 10.3 4.9 11.3 6ZM9 9C9 9.5 8.6 10 8 10C7.4 10 7 9.5 7 9C7 8.4 7.4 8 8 8C8.6 8 9 8.4 9 9Z"
-//       fill="currentColor"
-//     />
-//   </svg>
-// );
-
 export const OpenCollectiveIcon: React.FC<IconSvgProps> = ({
   size = 24,
   width,

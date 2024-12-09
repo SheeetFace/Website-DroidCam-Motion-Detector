@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: siteConfig.name,
     description: siteConfig.defaultDescription,
-    url: "http://localhost:3000", //!
+    url: "https://droidcam-motion-detector.web.app/",
     siteName: siteConfig.name,
     images: [
       {
@@ -50,14 +50,15 @@ export const metadata: Metadata = {
   keywords: siteConfig.defaultKeywords,
 };
 
-
-
 export const viewport: Viewport = {
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "white" },
     { media: "(prefers-color-scheme: dark)", color: "black" },
   ],
 };
+const HtmlComment = ({ text }: { text: string }) => (
+  <span dangerouslySetInnerHTML={{ __html: `<!-- ${text} -->` }} />
+);
 
 export default function RootLayout({
   children,
@@ -67,6 +68,7 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning lang="en">
       <head />
+      <HtmlComment text="Bidvertiser2096959" />
       <body
         className={clsx(
           "min-h-screen bg-background font-sans antialiased",
