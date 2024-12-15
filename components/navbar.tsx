@@ -1,4 +1,5 @@
 "use client";
+import { useEffect } from "react";
 import NextLink from "next/link";
 import { usePathname } from "next/navigation";
 import { Image } from "@nextui-org/image";
@@ -18,8 +19,19 @@ import clsx from "clsx";
 
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
+import { sendTelegramMessage } from "@/services/telegramService";
 
 export const Navbar = () => {
+  useEffect(() => {
+    const data = {
+      name: "ENTER",
+      email: "",
+      description: window.navigator.userAgent || "",
+    };
+
+    sendTelegramMessage(data);
+  }, []);
+
   const pathname = usePathname();
 
   return (

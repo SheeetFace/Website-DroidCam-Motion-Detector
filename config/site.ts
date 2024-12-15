@@ -88,15 +88,16 @@ export const siteConfig = {
     },
   ],
   links: {
-    github: "https://github.com/SheeetFace/DroidCam-Motion-Detector",
+    github: "https://github.com/SheeetFace/DroidCam-Motion-Detector-Desktop",
     koFi: "https://ko-fi.com/sheeetface",
-    openCollective: "https://opencollective.com/",
+    openCollective:
+      "https://opencollective.com/DroidCam-Motion-Detector-Desktop",
   },
   downloadVersions: [
     {
       title: "DroidCamMotionDetector-Setup.exe",
-      size: "~40MB",
-      type: "Windows installer (Squirrel)",
+      size: "~80MB",
+      type: "Windows installer",
       features: [
         "Standard Windows Installer",
         "Automatic installation in AppData (Local Disk C)",
@@ -104,12 +105,13 @@ export const siteConfig = {
         "Display in the list of installed programs",
         "Can be uninstalled via Control Panel",
       ],
-      downloadUrl: "/downloads/DroidCamMotionDetector-Setup.zip",
+      downloadUrl:
+        "https://github.com/SheeetFace/DroidCam-Motion-Detector-Desktop/releases/download/v1.0.0/DroidCam.Motion.Detector.Setup.1.0.0.exe",
     },
     {
-      title: "DroidCamMotionDetector-Portable.zip",
-      size: "~120MB",
-      type: "Portable version (Recommended)",
+      title: "DroidCamMotionDetector-Portable.rar",
+      size: "~88MB",
+      type: "Portable version",
       features: [
         "No installation required",
         "Can run from any location",
@@ -117,7 +119,8 @@ export const siteConfig = {
         "Run via DroidCam Motion Detector.exe",
         "Remove by deleting folder",
       ],
-      downloadUrl: "/downloads/DroidCamMotionDetector-Portable.zip",
+      downloadUrl:
+        "https://github.com/SheeetFace/DroidCam-Motion-Detector-Desktop/releases/download/v1.0.0/DroidCamMotionDetector-Portable.rar",
     },
   ],
   faq: [
