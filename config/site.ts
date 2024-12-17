@@ -264,8 +264,7 @@ export const siteConfig = {
         {
           id: "step-1-1-1",
           type: "image",
-          content:
-            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733392542/g0jdwwgvo1g14y7p6wqx.webp",
+          content: "/integrations/telegram/telegram-1.webp",
           additionalInfo: {
             imageAlt: "BotFather bot search instructions",
           },
@@ -293,8 +292,7 @@ export const siteConfig = {
         {
           id: "step-1-3-1",
           type: "image",
-          content:
-            " https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1732968093/pyf0nfbzj0kxnzczogid.webp",
+          content: "/integrations/telegram/telegram-2.webp",
           additionalInfo: {
             imageAlt:
               "Screenshot of the Telegram interface showing how to click on the Menu button and select the /newbot command to create a new bot.",
@@ -309,8 +307,7 @@ export const siteConfig = {
         {
           id: "step-1-4-1",
           type: "image",
-          content:
-            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733051175/g8pmibfdegqwqjeu6jwg.webp",
+          content: "/integrations/telegram/telegram-3.webp",
           additionalInfo: {
             imageAlt:
               "Screenshot of the Telegram interface showing where we are asked to come up with a name for our bot.",
@@ -325,8 +322,7 @@ export const siteConfig = {
         {
           id: "step-1-5-1",
           type: "image",
-          content:
-            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733052385/vouswleexluy7dim5jng.webp",
+          content: "/integrations/telegram/telegram-4.webp",
           additionalInfo: {
             imageAlt:
               "Screenshot of the Telegram interface showing where we came up with the name of our new bot. ",
@@ -349,8 +345,7 @@ export const siteConfig = {
         {
           id: "step-1-6-2",
           type: "image",
-          content:
-            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733123876/kceatswe4v97p7bggvld.webp",
+          content: "/integrations/telegram/telegram-5.webp",
           additionalInfo: {
             imageAlt:
               "Screenshot of the Telegram interface showing where we created our bot with the bot's username and his TOKEN.",
@@ -385,8 +380,7 @@ export const siteConfig = {
         {
           id: "step-2-1-1",
           type: "image",
-          content:
-            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733127688/tqqkwxufirugi3ztoz17.webp",
+          content: "/integrations/telegram/telegram-6.webp",
           additionalInfo: {
             imageAlt:
               "Screenshot of the Telegram interface showing where we create a new group.",
@@ -395,8 +389,7 @@ export const siteConfig = {
         {
           id: "step-2-1-2",
           type: "image",
-          content:
-            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733127691/rvsbwh77dgi7qdnq9kgl.webp",
+          content: "/integrations/telegram/telegram-7.webp",
           additionalInfo: {
             imageAlt:
               "Screenshot of the Telegram interface showing where we give the name for our new group.",
@@ -422,8 +415,7 @@ export const siteConfig = {
         {
           id: "step-3-1-1",
           type: "image",
-          content:
-            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733129919/c9kmuwj7fxkvpwxswkkz.webp",
+          content: "/integrations/telegram/telegram-8.webp",
           additionalInfo: {
             imageAlt:
               "Screenshot of the Telegram interface showing where to click to open a window with a list of users.",
@@ -437,8 +429,7 @@ export const siteConfig = {
         {
           id: "step-3-2-1",
           type: "image",
-          content:
-            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733129922/shp5cqnqh7pstwh2tiiw.webp",
+          content: "/integrations/telegram/telegram-9.webp",
           additionalInfo: {
             imageAlt:
               "Screenshot of the Telegram interface showing where to click to open a window with a list of users.",
@@ -453,8 +444,7 @@ export const siteConfig = {
         {
           id: "step-3-3-1",
           type: "image",
-          content:
-            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733129926/asq784vebllegpggmpjk.webp",
+          content: "/integrations/telegram/telegram-10.webp",
           additionalInfo: {
             imageAlt:
               "Screenshot of the Telegram interface showing input where to enter the username of our bot to add it to the group.",
@@ -486,8 +476,7 @@ export const siteConfig = {
         {
           id: "step-4-1-3",
           type: "image",
-          content:
-            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733131983/dovzdc9u587pb0svxn5y.webp",
+          content: "/integrations/telegram/telegram-11.webp",
           additionalInfo: {
             imageAlt:
               "Screenshot of the Telegram interface showing input where to enter the username of someone else's bot to add it to the group.",
@@ -502,8 +491,7 @@ export const siteConfig = {
         {
           id: "step-4-2-2",
           type: "image",
-          content:
-            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733132160/rxl8rb6ka0ehqy6nhw5p.webp",
+          content: "/integrations/telegram/telegram-12.webp",
           additionalInfo: {
             imageAlt:
               "Screenshot of the Telegram interface showing where to click to open commands for the bot.",
@@ -527,8 +515,7 @@ export const siteConfig = {
         {
           id: "step-4-3-3",
           type: "image",
-          content:
-            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733132484/zwotdzzx1v4deyxfrv5i.webp",
+          content: "/integrations/telegram/telegram-13.webp",
           additionalInfo: {
             imageAlt:
               "Screenshot of the Telegram interface showing commands for the bot.",
@@ -543,8 +530,7 @@ export const siteConfig = {
         {
           id: "step-4-3-5",
           type: "image",
-          content:
-            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733133785/fvzg89s8w83bnyye7dxa.webp",
+          content: "/integrations/telegram/telegram-14.webp",
           additionalInfo: {
             imageAlt:
               "Screenshot of the Telegram interface showing our CHAT_ID.",
@@ -585,8 +571,7 @@ export const siteConfig = {
         {
           id: "step-5-2-2",
           type: "image",
-          content:
-            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733136032/twnguxbcwd3z4whzimxw.webp",
+          content: "/integrations/telegram/telegram-15.webp",
           additionalInfo: {
             imageAlt:
               "Screenshot which shows where to enter TOKEN and CHAT_ID in DroidCam Motion Detector app.",
@@ -632,8 +617,7 @@ export const siteConfig = {
         {
           id: "step-1-2",
           type: "image",
-          content:
-            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733211449/xyw05bjgpl1g6jv3zgf1.webp",
+          content: "/integrations/discord/discord-1.webp",
           additionalInfo: {
             imageAlt:
               "Screenshot of the Discord interface where the user clicks on the plus icon, selects 'Create my Own' and 'For me and my friends'   then names as 'Server For Alerts'.",
@@ -654,8 +638,7 @@ export const siteConfig = {
         {
           id: "step-2-2",
           type: "image",
-          content:
-            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733212676/gkfas1edaqdo1nbfhwea.webp",
+          content: "/integrations/discord/discord-2.webp",
           additionalInfo: {
             imageAlt:
               "Screenshot of the Discord interface, where the server is ready. The user selects a channel to send notifications, in this case the automatically created general. Then the user clicks on the Edit Channel button.",
@@ -675,8 +658,7 @@ export const siteConfig = {
         {
           id: "step-3-2",
           type: "image",
-          content:
-            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733213552/wgsw44ydvtjwvp6x1hil.webp",
+          content: "/integrations/discord/discord-3.webp",
           additionalInfo: {
             imageAlt:
               "Screenshot of the Discord interface with open settings where the user selects the Integrations and Webhooks sections.",
@@ -692,8 +674,7 @@ export const siteConfig = {
         {
           id: "step-3-4",
           type: "image",
-          content:
-            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733214214/uzupvecl2zgpmcwfljmj.webp",
+          content: "/integrations/discord/discord-4.webp",
           additionalInfo: {
             imageAlt:
               "Screenshot of the Discord interface, where the user creates a new Webhook by clicking on the New Webhook button. Then a new Webhook is created, in this case with the name Captain Hook.",
@@ -708,8 +689,7 @@ export const siteConfig = {
         {
           id: "step-3-6",
           type: "image",
-          content:
-            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733215212/yk5zaahylr4r4wzrmtff.webp",
+          content: "/integrations/discord/discord-5.webp",
           additionalInfo: {
             imageAlt:
               "Screenshot of the Discord settings of a new Webhook called Captain Hook where you can change its name, image and channel. The user leaves the settings unchanged and clicks on the Copy Webhook URL button.",
@@ -738,8 +718,7 @@ export const siteConfig = {
         {
           id: "step-4-2",
           type: "image",
-          content:
-            "https://res.cloudinary.com/dof771xd5/image/upload/f_webp/v1733215602/ryn9de2johzczastq5fo.webp",
+          content: "/integrations/discord/discord-6.webp",
           additionalInfo: {
             imageAlt:
               "Screenshot of the Discord interface where the user pastes the copied Webhook into the appropriate settings field and clicks Apply, completing the customization process.",
