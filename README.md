@@ -1,54 +1,24 @@
-# Next.js & NextUI Template
+# DroidCam Motion Detector Website
 
-This is a template for creating applications using Next.js 14 (app directory) and NextUI (v2).
+Official [website](https://droidcam-motion-detector.web.app/) for DroidCam Motion Detector - a desktop [application](https://github.com/SheeetFace/DroidCam-Motion-Detector-Desktop) that transforms your smartphone into a motion detection system.
 
-[Try it on CodeSandbox](https://githubbox.com/nextui-org/next-app-template)
+## 🌟 About
 
-## Technologies Used
+This website serves as the central hub for:
+- Feature documentation
+- Integration guides for Telegram and Discord
+- Installation instructions
+- FAQ and support resources
 
-- [Next.js 14](https://nextjs.org/docs/getting-started)
-- [NextUI v2](https://nextui.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [next-themes](https://github.com/pacocoursey/next-themes)
+## 🛠️ Technical Stack
 
-## How to Use
+Built with modern web technologies:
+- **Framework**: Next.js 14
+- **UI Components**: NextUI v2
+- **Styling**: TailwindCSS
+- **Language**: TypeScript
+- **Deployment**: Firebase
 
-### Use the template with create-next-app
-
-To create a new project based on this template using `create-next-app`, run the following command:
-
-```bash
-npx create-next-app -e https://github.com/nextui-org/next-app-template
-```
-
-### Install dependencies
-
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
-
-```bash
-npm install
-```
-
-### Run the development server
-
-```bash
-npm run dev
-```
-
-### Setup pnpm (optional)
-
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
-
-```bash
-public-hoist-pattern[]=*@nextui-org/*
-```
-
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
-
-## License
-
-Licensed under the [MIT license](https://github.com/nextui-org/next-app-template/blob/main/LICENSE).
-# Website-DroidCam-Motion-Detector
+## 🔗 Links
+- [Website](https://droidcam-motion-detector.web.app/)
+- [Main Application Repository](https://github.com/SheeetFace/DroidCam-Motion-Detector-Desktop)
